@@ -10,7 +10,8 @@ let package = Package(
       .target(
         name: "Reusable",
         dependencies: [],
-        path: "Reusable"
+        path: "Reusable",
+        exclude: ["Info.plist", "Reusable.h"]
       ),
     ]
 )
